@@ -1,4 +1,4 @@
-# gmorph2 #
+# gmorph2 (windows version) #
 
 gmorph2 is a research code for 3D morphing between two meshes with arbitrary connectivies.
 
@@ -12,26 +12,23 @@ This code can be used only for research purpose *with no support*.
 
 I don't remember its contents because I created this code about 17-18 years ago.
 
-Now I've succeeded to compile this code on Fedora 24 and ubuntu 15.10. 
-To compile this code, you have to install the following libraries:
-(by using dnf or apt-get, other required files are automatically installed)
+Now I've succeeded to compile this code on Visual Studio 2015.
 
-*Fedora 24
+Double-click src\OpenGL.sln and then "build the solution",
+and if successfully finished, you can find \src\Release\gmorph2win.exe .
 
-- motif-devel
-- mesa-libGLw-devel
-- libXpm-devel
+In the folder data.v2.0, all examples used in the paper are included.
 
-*ubuntu 15.10 
+You can see 3D morphing animation by the following procedure:
 
-- libmotif-dev
-- libglw-dev
+1. Copy an execution file gmorph2win.exe to a folder including .gmh file.
+2. Execute gmorph2win.exe.
+3. "File" -> "Open" -> "GMH file" then load a .gmh file.
+4. "Morph" -> "Create PPD" to create an interpolation mesh.
+5. "Display" -> "Interp. Mesh"
+6. "Morph" -> "Start Morph" then you can see 3D morphing animation.
 
-After installing these libraries, simply
-
-% make
-
-to create an exacutable file (gmorph2b8).
+Enjoy!
 
 4 July, 2016
 
