@@ -1,0 +1,466 @@
+# Microsoft Developer Studio Generated Dependency File, included by OpenGL.mak
+
+.\CMDialog.cpp : \
+	".\CMDialog.h"\
+	".\edit.h"\
+	".\OpenGL.h"\
+	".\sellist.h"\
+	".\smd.h"\
+	
+
+.\correspond.cpp : \
+	".\correspond.h"\
+	".\hged.h"\
+	".\hgppd.h"\
+	".\hppd.h"\
+	".\ppd.h"\
+	".\ppdedge.h"\
+	".\ppdface.h"\
+	".\ppdloop.h"\
+	".\ppdpart.h"\
+	".\ppdsolid.h"\
+	".\ppdvertex.h"\
+	".\ps.h"\
+	".\smd.h"\
+	".\trisquare.h"\
+	".\veclib.h"\
+	
+
+.\CVDialog.cpp : \
+	".\CVDialog.h"\
+	".\edit.h"\
+	".\OpenGL.h"\
+	".\sellist.h"\
+	".\smd.h"\
+	
+
+.\DCMDialog.cpp : \
+	".\DCMDialog.h"\
+	".\edit.h"\
+	".\OpenGL.h"\
+	".\sellist.h"\
+	".\smd.h"\
+	
+
+.\dialog.cpp : \
+	".\CMDialog.h"\
+	".\CVDialog.h"\
+	".\DCMDialog.h"\
+	".\DPFDialog.h"\
+	".\DPLDialog.h"\
+	".\DSPDialog.h"\
+	".\MSPDialog.h"\
+	".\OpenGL.h"\
+	".\PFDialog.h"\
+	".\PLDialog.h"\
+	".\smd.h"\
+	".\spdialog.h"\
+	
+
+.\DistView.cpp : \
+	".\dialog.h"\
+	".\DistView.h"\
+	".\draw.h"\
+	".\Material.h"\
+	".\OpenGL.h"\
+	".\OpenGLDoc.h"\
+	".\pick.h"\
+	".\screen.h"\
+	".\smd.h"\
+	
+
+.\DPFDialog.cpp : \
+	".\DPFDialog.h"\
+	".\edit.h"\
+	".\OpenGL.h"\
+	".\sellist.h"\
+	".\smd.h"\
+	
+
+.\DPLDialog.cpp : \
+	".\DPLDialog.h"\
+	".\edit.h"\
+	".\OpenGL.h"\
+	".\sellist.h"\
+	".\smd.h"\
+	
+
+.\draw.cpp : \
+	".\color.h"\
+	".\smd.h"\
+	
+
+.\DSPDialog.cpp : \
+	".\DSPDialog.h"\
+	".\edit.h"\
+	".\OpenGL.h"\
+	".\sellist.h"\
+	".\smd.h"\
+	
+
+.\dspr.cpp : \
+	".\dspr.h"\
+	".\sigproc.h"\
+	".\smd.h"\
+	
+
+.\edit.cpp : \
+	".\edit.h"\
+	".\hppd.h"\
+	".\MainFrm.h"\
+	".\ppdedge.h"\
+	".\ppdface.h"\
+	".\ppdloop.h"\
+	".\ppdvertex.h"\
+	".\sgraph.h"\
+	".\smd.h"\
+	
+
+.\file.cpp : \
+	".\smd.h"\
+	
+
+.\glppd.cpp : \
+	".\color.h"\
+	".\glppd.h"\
+	".\mtl.h"\
+	".\smd.h"\
+	
+
+.\gmorph.cpp : \
+	".\correspond.h"\
+	".\file.h"\
+	".\gmorph.h"\
+	".\grouping.h"\
+	".\harmonic.h"\
+	".\hgppd.h"\
+	".\hppd.h"\
+	".\morphvec.h"\
+	".\ppd.h"\
+	".\ppdedge.h"\
+	".\ppdface.h"\
+	".\ppdlist.h"\
+	".\ppdloop.h"\
+	".\ppdnormal.h"\
+	".\ppdvertex.h"\
+	".\smd.h"\
+	
+
+.\grouping.cpp : \
+	".\correspond.h"\
+	".\grouping.h"\
+	".\hged.h"\
+	".\hgppd.h"\
+	".\ppdedge.h"\
+	".\ppdvertex.h"\
+	".\smd.h"\
+	
+
+.\harmonic.cpp : \
+	".\harmonic.h"\
+	".\hgppd.h"\
+	".\linbcg.h"\
+	".\ppdedge.h"\
+	".\smd.h"\
+	
+
+.\hged.cpp : \
+	".\hged.h"\
+	".\smd.h"\
+	
+
+.\hgppd.cpp : \
+	".\hgppd.h"\
+	".\ppd.h"\
+	".\ppdface.h"\
+	".\ppdpart.h"\
+	".\ppdsolid.h"\
+	".\ppdvertex.h"\
+	".\quadtree.h"\
+	".\smd.h"\
+	".\veclib.h"\
+	
+
+.\hppd.cpp : \
+	".\hgppd.h"\
+	".\hppd.h"\
+	".\ppd.h"\
+	".\ppdedge.h"\
+	".\ppdloop.h"\
+	".\sellist.h"\
+	".\smd.h"\
+	".\veclib.h"\
+	
+
+.\linbcg.cpp : \
+	".\linbcg.h"\
+	".\smd.h"\
+	
+
+.\MainFrm.cpp : \
+	".\CMDialog.h"\
+	".\CVDialog.h"\
+	".\DCMDialog.h"\
+	".\DistView.h"\
+	".\DPFDialog.h"\
+	".\DPLDialog.h"\
+	".\DSPDialog.h"\
+	".\file.h"\
+	".\gmorph.h"\
+	".\hppd.h"\
+	".\MainFrm.h"\
+	".\MSPDialog.h"\
+	".\OpenGL.h"\
+	".\OpenGLDoc.h"\
+	".\OpenGLView.h"\
+	".\PFDialog.h"\
+	".\PLDialog.h"\
+	".\pov.h"\
+	".\ppd.h"\
+	".\ppdface.h"\
+	".\ppdlist.h"\
+	".\ppdnormal.h"\
+	".\SFIDialog.h"\
+	".\sgpaths.h"\
+	".\sigproc.h"\
+	".\SIPDialog.h"\
+	".\smd.h"\
+	".\spdialog.h"\
+	".\SRDialog.h"\
+	
+
+.\Material.cpp : \
+	".\Material.h"\
+	".\smd.h"\
+	
+
+.\matlib.cpp : \
+	".\smd.h"\
+	
+
+.\morphvec.cpp : \
+	".\correspond.h"\
+	".\hppd.h"\
+	".\morphvec.h"\
+	".\smd.h"\
+	".\trisquare.h"\
+	".\veclib.h"\
+	
+
+.\MSPDialog.cpp : \
+	".\edit.h"\
+	".\MSPDialog.h"\
+	".\OpenGL.h"\
+	".\sellist.h"\
+	".\smd.h"\
+	
+
+.\OpenGL.cpp : \
+	".\DistView.h"\
+	".\MainFrm.h"\
+	".\OpenGL.h"\
+	".\OpenGLDoc.h"\
+	".\OpenGLView.h"\
+	".\QuitDialog.h"\
+	".\smd.h"\
+	
+
+.\OpenGL.rc : \
+	".\res\bitmap1.bmp"\
+	".\res\OpenGL.ico"\
+	".\res\OpenGL.rc2"\
+	".\res\OpenGLDoc.ico"\
+	".\res\Toolbar.bmp"\
+	".\resource.hm"\
+	
+
+.\OpenGLDoc.cpp : \
+	".\OpenGL.h"\
+	".\OpenGLDoc.h"\
+	
+
+.\OpenGLView.cpp : \
+	".\dialog.h"\
+	".\draw.h"\
+	".\Material.h"\
+	".\OpenGL.h"\
+	".\OpenGLDoc.h"\
+	".\OpenGLView.h"\
+	".\pick.h"\
+	".\screen.h"\
+	".\smd.h"\
+	
+
+.\oppd.cpp : \
+	".\smd.h"\
+	
+
+.\PFDialog.cpp : \
+	".\edit.h"\
+	".\OpenGL.h"\
+	".\PFDialog.h"\
+	".\sellist.h"\
+	".\smd.h"\
+	
+
+.\pick.cpp : \
+	".\draw.h"\
+	".\pick.h"\
+	".\ppdvertex.h"\
+	".\sellist.h"\
+	".\smd.h"\
+	".\trisquare.h"\
+	".\veclib.h"\
+	
+
+.\PLDialog.cpp : \
+	".\edit.h"\
+	".\OpenGL.h"\
+	".\PLDialog.h"\
+	".\sellist.h"\
+	".\smd.h"\
+	
+
+.\pov.cpp : \
+	".\file.h"\
+	".\pov.h"\
+	".\smd.h"\
+	
+
+.\ppd.cpp : \
+	".\smd.h"\
+	
+
+.\ppdedge.cpp : \
+	".\smd.h"\
+	
+
+.\ppdface.cpp : \
+	".\smd.h"\
+	
+
+.\ppdlist.cpp : \
+	".\smd.h"\
+	
+
+.\ppdloop.cpp : \
+	".\smd.h"\
+	
+
+.\ppdnormal.cpp : \
+	".\smd.h"\
+	
+
+.\ppdpart.cpp : \
+	".\smd.h"\
+	
+
+.\ppdsolid.cpp : \
+	".\smd.h"\
+	
+
+.\ppdvertex.cpp : \
+	".\smd.h"\
+	
+
+.\ps.cpp : \
+	".\ps.h"\
+	".\smd.h"\
+	
+
+.\quadtree.cpp : \
+	".\quadtree.h"\
+	".\smd.h"\
+	".\trisquare.h"\
+	
+
+.\QuitDialog.cpp : \
+	".\OpenGL.h"\
+	".\QuitDialog.h"\
+	
+
+.\screen.cpp : \
+	".\smd.h"\
+	
+
+.\sellist.cpp : \
+	".\smd.h"\
+	
+
+.\SFIDialog.cpp : \
+	".\OpenGL.h"\
+	".\SFIDialog.h"\
+	
+
+.\sgpaths.cpp : \
+	".\ppdedge.h"\
+	".\ppdloop.h"\
+	".\ppdvertex.h"\
+	".\sgpaths.h"\
+	".\sgraph.h"\
+	".\smd.h"\
+	".\veclib.h"\
+	
+
+.\sgprique.cpp : \
+	".\sgprique.h"\
+	".\smd.h"\
+	
+
+.\sgraph.cpp : \
+	".\sgprique.h"\
+	".\sgraph.h"\
+	".\smd.h"\
+	".\veclib.h"\
+	
+
+.\sigproc.cpp : \
+	".\dspr.h"\
+	".\linbcg.h"\
+	".\ppdvertex.h"\
+	".\sigproc.h"\
+	".\smd.h"\
+	".\veclib.h"\
+	
+
+.\SIPDialog.cpp : \
+	".\gmorph.h"\
+	".\OpenGL.h"\
+	".\SIPDialog.h"\
+	".\smd.h"\
+	
+
+.\smd.cpp : \
+	".\color.h"\
+	".\ppd.h"\
+	".\smd.h"\
+	
+
+.\SPDialog.cpp : \
+	".\edit.h"\
+	".\OpenGL.h"\
+	".\sellist.h"\
+	".\smd.h"\
+	".\spdialog.h"\
+	
+
+.\SRDialog.cpp : \
+	".\OpenGL.h"\
+	".\smd.h"\
+	".\SRDialog.h"\
+	
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\trisquare.cpp : \
+	".\smd.h"\
+	".\trisquare.h"\
+	".\veclib.h"\
+	
+
+.\veclib.cpp : \
+	".\smd.h"\
+	

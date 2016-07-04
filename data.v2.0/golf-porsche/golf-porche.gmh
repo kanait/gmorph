@@ -1,0 +1,38 @@
+header
+	ppd	2
+	hppd	1
+	hvertex	10
+	hface	1
+	hedge	10
+end
+ppd
+	1	golf-porche_1.ppd
+	2	golf-porche_2.ppd
+end
+hvertex
+	1	2431 1951
+	2	2389 1673
+	3	1884 1674
+	4	910 1694
+	5	2410 910
+	6	2421 1699
+	7	2448 1762
+	8	1372 1952
+	9	1816 1937
+	10	2427 1954
+end
+hface
+	1	1 2 3 4 5 6 7 8 9 10 
+end
+hedge
+	1	sv 10 ev 1 rf 1 lf 0 sp 0
+	2	sv 1 ev 2 rf 1 lf 0 sp 0
+	3	sv 2 ev 3 rf 1 lf 0 sp 0
+	4	sv 3 ev 4 rf 1 lf 0 sp 0
+	5	sv 4 ev 5 rf 1 lf 0 sp 0
+	6	sv 5 ev 6 rf 1 lf 0 sp 0
+	7	sv 6 ev 7 rf 1 lf 0 sp 0
+	8	sv 7 ev 8 rf 1 lf 0 sp 0
+	9	sv 8 ev 9 rf 1 lf 0 sp 0
+	10	sv 9 ev 10 rf 1 lf 0 sp 0
+end

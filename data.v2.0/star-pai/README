@@ -1,0 +1,10 @@
+データで使い物になるやつ
+- spf1_1nSP0002.gmh OK 三つ編みのところがだめ
+- spf1_2nSP0002.gmh OK 三つ編みのところがだめ
+- spf1_3nSP0002.gmh NG 
+- spf1_4nSP0002.gmh NG (おそらく)
+- spf1_5nSP0002.gmh NG
+- spf1_6nSP0002.gmh OK (採用)
+- spf1_7nSP0002.gmh OK
+( spf1_6n より手の先端の CVP の位置を修正 )
+

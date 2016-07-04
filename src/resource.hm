@@ -1,0 +1,4 @@
+// Microsoft Developer Studio generated Help ID include file.
+// Used by OpenGL.rc
+//
+#define HIDC_CCM_CV_LIST                0x80960408    // IDD_CREATE_CMESH

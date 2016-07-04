@@ -1,0 +1,30 @@
+header
+	ppd	2
+	hppd	1
+	hvertex	3
+	hface	1
+	hedge	3
+end
+ppd
+	1	bunny-dodeca_1.ppd
+	2	bunny-dodeca_2.ppd
+end
+hvertex
+	1	61 1
+	2	56 8
+	3	155 7
+end
+hface
+	1	1 3 2 
+end
+hedge
+	1	sv 2 ev 1 rf 1 lf 0 sp 1
+		lp1	56 43 35 34 42 61 
+		lp2	8 16 1 
+	2	sv 1 ev 3 rf 1 lf 0 sp 1
+		lp1	61 99 127 145 153 157 155 
+		lp2	1 15 7 
+	3	sv 3 ev 2 rf 1 lf 0 sp 1
+		lp1	155 154 146 128 105 83 56 
+		lp2	7 8 
+end

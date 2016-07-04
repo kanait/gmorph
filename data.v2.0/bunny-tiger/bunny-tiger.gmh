@@ -1,0 +1,95 @@
+header
+	ppd	2
+	hppd	1
+	hvertex	16
+	hface	24
+	hedge	38
+end
+ppd
+	1	bunny-tiger_1.ppd
+	2	bunny-tiger_2.ppd
+end
+hvertex
+	1	61 109
+	2	55 91
+	3	31 249
+	4	131 168
+	5	22 92
+	6	155 163
+	7	105 84
+	8	139 170
+	9	122 32
+	10	137 46
+	11	149 42
+	12	97 50
+	13	52 49
+	14	80 48
+	15	109 18
+	16	146 8
+end
+hface
+	1	6 16 11 
+	2	11 16 10 
+	3	16 15 10 
+	4	16 7 15 
+	5	7 14 15 
+	6	6 1 16 
+	7	1 7 16 
+	8	4 1 6 
+	9	3 4 2 
+	10	3 1 4 
+	11	5 3 2 
+	12	5 1 3 
+	13	4 8 9 
+	14	4 9 2 
+	15	2 9 12 
+	16	2 12 5 
+	17	5 12 13 
+	18	1 5 7 
+	19	7 5 14 
+	20	14 5 13 
+	21	8 11 10 9 
+	22	9 10 15 12 
+	23	12 15 14 13 
+	24	4 6 11 8 
+end
+hedge
+	1	sv 8 ev 11 rf 24 lf 21 sp 0
+	2	sv 11 ev 10 rf 2 lf 21 sp 0
+	3	sv 9 ev 8 rf 13 lf 21 sp 0
+	4	sv 15 ev 14 rf 5 lf 23 sp 0
+	5	sv 14 ev 13 rf 20 lf 23 sp 0
+	6	sv 13 ev 12 rf 17 lf 23 sp 0
+	7	sv 10 ev 15 rf 3 lf 22 sp 0
+	8	sv 12 ev 9 rf 15 lf 22 sp 0
+	9	sv 6 ev 16 rf 6 lf 1 sp 0
+	10	sv 16 ev 11 rf 2 lf 1 sp 0
+	11	sv 11 ev 6 rf 24 lf 1 sp 0
+	12	sv 16 ev 10 rf 3 lf 2 sp 0
+	13	sv 16 ev 15 rf 4 lf 3 sp 0
+	14	sv 16 ev 7 rf 7 lf 4 sp 0
+	15	sv 7 ev 15 rf 5 lf 4 sp 0
+	16	sv 7 ev 14 rf 19 lf 5 sp 0
+	17	sv 6 ev 1 rf 8 lf 6 sp 0
+	18	sv 1 ev 16 rf 7 lf 6 sp 0
+	19	sv 1 ev 7 rf 18 lf 7 sp 0
+	20	sv 4 ev 1 rf 10 lf 8 sp 0
+	21	sv 6 ev 4 rf 24 lf 8 sp 0
+	22	sv 3 ev 4 rf 10 lf 9 sp 0
+	23	sv 4 ev 2 rf 14 lf 9 sp 0
+	24	sv 2 ev 3 rf 11 lf 9 sp 0
+	25	sv 3 ev 1 rf 12 lf 10 sp 0
+	26	sv 5 ev 3 rf 12 lf 11 sp 0
+	27	sv 2 ev 5 rf 16 lf 11 sp 0
+	28	sv 5 ev 1 rf 18 lf 12 sp 0
+	29	sv 8 ev 4 rf 13 lf 24 sp 0
+	30	sv 9 ev 4 rf 14 lf 13 sp 0
+	31	sv 9 ev 2 rf 15 lf 14 sp 0
+	32	sv 12 ev 2 rf 16 lf 15 sp 0
+	33	sv 12 ev 5 rf 17 lf 16 sp 0
+	34	sv 13 ev 5 rf 20 lf 17 sp 0
+	35	sv 5 ev 7 rf 19 lf 18 sp 0
+	36	sv 5 ev 14 rf 20 lf 19 sp 0
+	37	sv 10 ev 9 rf 22 lf 21 sp 0
+	38	sv 15 ev 12 rf 23 lf 22 sp 0
+end

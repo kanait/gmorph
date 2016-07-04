@@ -1,0 +1,14 @@
+header
+	ppd	2
+	hppd	1
+	hvertex	3
+end
+ppd
+	1	bunny-dodeca1_1.ppd
+	2	bunny-dodeca1_2.ppd
+end
+hvertex
+	1	61 1
+	2	56 8
+	3	155 7
+end

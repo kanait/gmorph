@@ -1,0 +1,296 @@
+header
+	ppd	2
+	hppd	1
+	hvertex	52
+	hface	88
+	hedge	139
+end
+ppd
+	1	golf-porche#ud_1.ppd
+	2	golf-porche#ud_2.ppd
+end
+hvertex
+	1	2431 1951
+	2	2427 1954
+	3	2389 1673
+	4	1816 1937
+	5	1884 926
+	6	910 1694
+	7	2410 863
+	8	1372 249
+	9	2448 1762
+	10	2421 1649
+	11	2143 1799
+	12	1348 1741
+	13	1945 1758
+	14	2162 1568
+	15	2350 917
+	16	2134 1654
+	17	816 173
+	18	826 190
+	19	834 1739
+	20	821 182
+	21	724 1015
+	22	729 1022
+	23	718 1008
+	24	737 1342
+	25	985 514
+	26	1807 491
+	27	2164 404
+	28	2605 685
+	29	2606 682
+	30	2179 409
+	31	2548 1423
+	32	2549 1421
+	33	1964 1436
+	34	1947 1178
+	35	1790 1776
+	36	2858 1669
+	37	2919 1612
+	38	2643 1401
+	39	2854 1197
+	40	2910 435
+	41	2647 664
+	42	1060 1772
+	43	1513 1750
+	44	1865 759
+	45	1562 433
+	46	1107 1194
+	47	1888 963
+	48	1822 135
+	49	1179 887
+	50	2566 1563
+	51	2623 606
+	52	1626 1929
+end
+hface
+	1	25 26 23 
+	2	25 17 26 
+	3	23 24 22 
+	4	22 21 23 
+	5	17 18 19 
+	6	17 20 18 
+	7	17 19 26 
+	8	26 24 23 
+	9	17 25 1 
+	10	1 25 23 
+	11	1 23 3 
+	12	2 17 1 
+	13	26 11 24 
+	14	19 11 26 
+	15	19 14 11 
+	16	24 11 13 
+	17	24 13 22 
+	18	18 14 19 
+	19	21 22 13 
+	20	20 14 18 
+	21	33 34 31 
+	22	31 34 32 
+	23	28 27 30 
+	24	28 29 27 
+	25	2 20 17 
+	26	3 23 21 
+	27	21 47 3 
+	28	47 5 31 
+	29	13 33 31 
+	30	13 31 47 
+	31	21 13 47 
+	32	28 30 14 
+	33	20 28 14 
+	34	48 20 2 
+	35	4 28 48 
+	36	48 28 20 
+	37	46 16 12 
+	38	46 12 44 
+	39	44 12 45 
+	40	12 15 45 
+	41	37 44 45 
+	42	37 45 40 
+	43	46 44 37 
+	44	39 46 37 
+	45	38 39 37 
+	46	38 37 36 
+	47	36 37 41 
+	48	37 40 41 
+	49	11 12 13 
+	50	14 12 11 
+	51	14 15 12 
+	52	30 15 14 
+	53	12 16 13 
+	54	13 16 33 
+	55	33 16 34 
+	56	27 15 30 
+	57	5 31 32 
+	58	4 29 28 
+	59	5 32 6 
+	60	32 34 6 
+	61	8 29 4 
+	62	8 27 29 
+	63	34 16 50 
+	64	16 46 50 
+	65	51 15 27 
+	66	51 45 15 
+	67	6 34 50 
+	68	8 51 27 
+	69	6 50 49 
+	70	50 46 39 
+	71	49 50 39 
+	72	49 39 38 
+	73	51 40 45 
+	74	52 40 51 
+	75	52 51 8 
+	76	41 40 52 
+	77	49 38 7 
+	78	7 38 42 
+	79	7 42 10 
+	80	9 41 52 
+	81	43 41 9 
+	82	10 43 9 
+	83	42 38 36 
+	84	42 36 35 
+	85	35 36 43 
+	86	36 41 43 
+	87	42 35 10 
+	88	35 43 10 
+end
+hedge
+	1	sv 25 ev 26 rf 1 lf 2 sp 0
+	2	sv 26 ev 23 rf 1 lf 8 sp 0
+	3	sv 23 ev 25 rf 1 lf 10 sp 0
+	4	sv 25 ev 17 rf 2 lf 9 sp 0
+	5	sv 17 ev 26 rf 2 lf 7 sp 0
+	6	sv 23 ev 24 rf 3 lf 8 sp 0
+	7	sv 24 ev 22 rf 3 lf 17 sp 0
+	8	sv 22 ev 23 rf 3 lf 4 sp 0
+	9	sv 22 ev 21 rf 4 lf 19 sp 0
+	10	sv 21 ev 23 rf 4 lf 26 sp 0
+	11	sv 17 ev 18 rf 5 lf 6 sp 0
+	12	sv 18 ev 19 rf 5 lf 18 sp 0
+	13	sv 19 ev 17 rf 5 lf 7 sp 0
+	14	sv 17 ev 20 rf 6 lf 25 sp 0
+	15	sv 20 ev 18 rf 6 lf 20 sp 0
+	16	sv 19 ev 26 rf 7 lf 14 sp 0
+	17	sv 26 ev 24 rf 8 lf 13 sp 0
+	18	sv 25 ev 1 rf 9 lf 10 sp 0
+	19	sv 1 ev 17 rf 9 lf 12 sp 0
+	20	sv 23 ev 1 rf 10 lf 11 sp 0
+	21	sv 23 ev 3 rf 11 lf 26 sp 0
+	22	sv 3 ev 1 rf 11 lf 0 sp 0
+	23	sv 2 ev 17 rf 12 lf 25 sp 0
+	24	sv 1 ev 2 rf 12 lf 0 sp 0
+	25	sv 26 ev 11 rf 13 lf 14 sp 0
+	26	sv 11 ev 24 rf 13 lf 16 sp 0
+	27	sv 19 ev 11 rf 14 lf 15 sp 0
+	28	sv 19 ev 14 rf 15 lf 18 sp 0
+	29	sv 14 ev 11 rf 15 lf 50 sp 0
+	30	sv 11 ev 13 rf 16 lf 49 sp 0
+	31	sv 13 ev 24 rf 16 lf 17 sp 0
+	32	sv 13 ev 22 rf 17 lf 19 sp 0
+	33	sv 18 ev 14 rf 18 lf 20 sp 0
+	34	sv 13 ev 21 rf 19 lf 31 sp 0
+	35	sv 20 ev 14 rf 20 lf 33 sp 0
+	36	sv 33 ev 34 rf 21 lf 55 sp 0
+	37	sv 34 ev 31 rf 21 lf 22 sp 0
+	38	sv 31 ev 33 rf 21 lf 29 sp 0
+	39	sv 34 ev 32 rf 22 lf 60 sp 0
+	40	sv 32 ev 31 rf 22 lf 57 sp 0
+	41	sv 28 ev 27 rf 23 lf 24 sp 0
+	42	sv 27 ev 30 rf 23 lf 56 sp 0
+	43	sv 30 ev 28 rf 23 lf 32 sp 0
+	44	sv 28 ev 29 rf 24 lf 58 sp 0
+	45	sv 29 ev 27 rf 24 lf 62 sp 0
+	46	sv 2 ev 20 rf 25 lf 34 sp 0
+	47	sv 21 ev 3 rf 26 lf 27 sp 0
+	48	sv 21 ev 47 rf 27 lf 31 sp 0
+	49	sv 47 ev 3 rf 27 lf 0 sp 0
+	50	sv 47 ev 5 rf 28 lf 0 sp 0
+	51	sv 5 ev 31 rf 28 lf 57 sp 0
+	52	sv 31 ev 47 rf 28 lf 30 sp 0
+	53	sv 13 ev 33 rf 29 lf 54 sp 0
+	54	sv 31 ev 13 rf 29 lf 30 sp 0
+	55	sv 47 ev 13 rf 30 lf 31 sp 0
+	56	sv 30 ev 14 rf 32 lf 52 sp 0
+	57	sv 14 ev 28 rf 32 lf 33 sp 0
+	58	sv 20 ev 28 rf 33 lf 36 sp 0
+	59	sv 48 ev 20 rf 34 lf 36 sp 0
+	60	sv 2 ev 48 rf 34 lf 0 sp 0
+	61	sv 4 ev 28 rf 35 lf 58 sp 0
+	62	sv 28 ev 48 rf 35 lf 36 sp 0
+	63	sv 48 ev 4 rf 35 lf 0 sp 0
+	64	sv 46 ev 16 rf 37 lf 64 sp 0
+	65	sv 16 ev 12 rf 37 lf 53 sp 0
+	66	sv 12 ev 46 rf 37 lf 38 sp 0
+	67	sv 12 ev 44 rf 38 lf 39 sp 0
+	68	sv 44 ev 46 rf 38 lf 43 sp 0
+	69	sv 12 ev 45 rf 39 lf 40 sp 0
+	70	sv 45 ev 44 rf 39 lf 41 sp 0
+	71	sv 12 ev 15 rf 40 lf 51 sp 0
+	72	sv 15 ev 45 rf 40 lf 66 sp 0
+	73	sv 37 ev 44 rf 41 lf 43 sp 0
+	74	sv 45 ev 37 rf 41 lf 42 sp 0
+	75	sv 45 ev 40 rf 42 lf 73 sp 0
+	76	sv 40 ev 37 rf 42 lf 48 sp 0
+	77	sv 37 ev 46 rf 43 lf 44 sp 0
+	78	sv 39 ev 46 rf 44 lf 70 sp 0
+	79	sv 37 ev 39 rf 44 lf 45 sp 0
+	80	sv 38 ev 39 rf 45 lf 72 sp 0
+	81	sv 37 ev 38 rf 45 lf 46 sp 0
+	82	sv 37 ev 36 rf 46 lf 47 sp 0
+	83	sv 36 ev 38 rf 46 lf 83 sp 0
+	84	sv 37 ev 41 rf 47 lf 48 sp 0
+	85	sv 41 ev 36 rf 47 lf 86 sp 0
+	86	sv 40 ev 41 rf 48 lf 76 sp 0
+	87	sv 11 ev 12 rf 49 lf 50 sp 0
+	88	sv 12 ev 13 rf 49 lf 53 sp 0
+	89	sv 14 ev 12 rf 50 lf 51 sp 0
+	90	sv 14 ev 15 rf 51 lf 52 sp 0
+	91	sv 30 ev 15 rf 52 lf 56 sp 0
+	92	sv 16 ev 13 rf 53 lf 54 sp 0
+	93	sv 16 ev 33 rf 54 lf 55 sp 0
+	94	sv 16 ev 34 rf 55 lf 63 sp 0
+	95	sv 27 ev 15 rf 56 lf 65 sp 0
+	96	sv 32 ev 5 rf 57 lf 59 sp 0
+	97	sv 4 ev 29 rf 58 lf 61 sp 0
+	98	sv 32 ev 6 rf 59 lf 60 sp 0
+	99	sv 6 ev 5 rf 59 lf 0 sp 0
+	100	sv 34 ev 6 rf 60 lf 67 sp 0
+	101	sv 8 ev 29 rf 61 lf 62 sp 0
+	102	sv 4 ev 8 rf 61 lf 0 sp 0
+	103	sv 8 ev 27 rf 62 lf 68 sp 0
+	104	sv 16 ev 50 rf 63 lf 64 sp 0
+	105	sv 50 ev 34 rf 63 lf 67 sp 0
+	106	sv 46 ev 50 rf 64 lf 70 sp 0
+	107	sv 51 ev 15 rf 65 lf 66 sp 0
+	108	sv 27 ev 51 rf 65 lf 68 sp 0
+	109	sv 51 ev 45 rf 66 lf 73 sp 0
+	110	sv 50 ev 6 rf 67 lf 69 sp 0
+	111	sv 8 ev 51 rf 68 lf 75 sp 0
+	112	sv 50 ev 49 rf 69 lf 71 sp 0
+	113	sv 49 ev 6 rf 69 lf 0 sp 0
+	114	sv 39 ev 50 rf 70 lf 71 sp 0
+	115	sv 39 ev 49 rf 71 lf 72 sp 0
+	116	sv 38 ev 49 rf 72 lf 77 sp 0
+	117	sv 51 ev 40 rf 73 lf 74 sp 0
+	118	sv 52 ev 40 rf 74 lf 76 sp 0
+	119	sv 51 ev 52 rf 74 lf 75 sp 0
+	120	sv 8 ev 52 rf 75 lf 0 sp 0
+	121	sv 52 ev 41 rf 76 lf 80 sp 0
+	122	sv 38 ev 7 rf 77 lf 78 sp 0
+	123	sv 7 ev 49 rf 77 lf 0 sp 0
+	124	sv 38 ev 42 rf 78 lf 83 sp 0
+	125	sv 42 ev 7 rf 78 lf 79 sp 0
+	126	sv 42 ev 10 rf 79 lf 87 sp 0
+	127	sv 10 ev 7 rf 79 lf 0 sp 0
+	128	sv 9 ev 41 rf 80 lf 81 sp 0
+	129	sv 52 ev 9 rf 80 lf 0 sp 0
+	130	sv 43 ev 41 rf 81 lf 86 sp 0
+	131	sv 9 ev 43 rf 81 lf 82 sp 0
+	132	sv 10 ev 43 rf 82 lf 88 sp 0
+	133	sv 9 ev 10 rf 82 lf 0 sp 0
+	134	sv 36 ev 42 rf 83 lf 84 sp 0
+	135	sv 36 ev 35 rf 84 lf 85 sp 0
+	136	sv 35 ev 42 rf 84 lf 87 sp 0
+	137	sv 36 ev 43 rf 85 lf 86 sp 0
+	138	sv 43 ev 35 rf 85 lf 88 sp 0
+	139	sv 35 ev 10 rf 87 lf 88 sp 0
+end

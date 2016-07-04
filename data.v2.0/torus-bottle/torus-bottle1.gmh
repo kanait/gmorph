@@ -1,0 +1,81 @@
+header
+	ppd	2
+	hppd	1
+	hvertex	16
+	hface	16
+	hedge	32
+end
+ppd
+	1	torus-bottle1_1.ppd
+	2	torus-bottle1_2.ppd
+end
+hvertex
+	1	340 472
+	2	1140 437
+	3	1540 411
+	4	740 83
+	5	731 339
+	6	331 274
+	7	1131 170
+	8	1531 280
+	9	1550 416
+	10	350 327
+	11	750 386
+	12	1150 27
+	13	721 65
+	14	1121 33
+	15	1521 359
+	16	321 479
+end
+hface
+	1	5 7 2 4 
+	2	7 8 3 2 
+	3	3 8 6 1 
+	4	5 4 1 6 
+	5	10 1 4 11 
+	6	9 3 1 10 
+	7	12 2 3 9 
+	8	11 4 2 12 
+	9	13 14 7 5 
+	10	11 12 14 13 
+	11	14 15 8 7 
+	12	12 9 15 14 
+	13	15 16 6 8 
+	14	9 10 16 15 
+	15	11 13 16 10 
+	16	13 5 6 16 
+end
+hedge
+	1	sv 4 ev 5 rf 4 lf 1 sp 0
+	2	sv 5 ev 7 rf 9 lf 1 sp 0
+	3	sv 7 ev 2 rf 2 lf 1 sp 0
+	4	sv 2 ev 4 rf 8 lf 1 sp 0
+	5	sv 7 ev 8 rf 11 lf 2 sp 0
+	6	sv 8 ev 3 rf 3 lf 2 sp 0
+	7	sv 3 ev 2 rf 7 lf 2 sp 0
+	8	sv 1 ev 3 rf 6 lf 3 sp 0
+	9	sv 8 ev 6 rf 13 lf 3 sp 0
+	10	sv 6 ev 1 rf 4 lf 3 sp 0
+	11	sv 6 ev 5 rf 16 lf 4 sp 0
+	12	sv 4 ev 1 rf 5 lf 4 sp 0
+	13	sv 11 ev 10 rf 15 lf 5 sp 0
+	14	sv 10 ev 1 rf 6 lf 5 sp 0
+	15	sv 4 ev 11 rf 8 lf 5 sp 0
+	16	sv 10 ev 9 rf 14 lf 6 sp 0
+	17	sv 9 ev 3 rf 7 lf 6 sp 0
+	18	sv 9 ev 12 rf 12 lf 7 sp 0
+	19	sv 12 ev 2 rf 8 lf 7 sp 0
+	20	sv 12 ev 11 rf 10 lf 8 sp 0
+	21	sv 5 ev 13 rf 9 lf 16 sp 0
+	22	sv 13 ev 14 rf 9 lf 10 sp 0
+	23	sv 14 ev 7 rf 9 lf 11 sp 0
+	24	sv 13 ev 11 rf 10 lf 15 sp 0
+	25	sv 12 ev 14 rf 10 lf 12 sp 0
+	26	sv 14 ev 15 rf 11 lf 12 sp 0
+	27	sv 15 ev 8 rf 11 lf 13 sp 0
+	28	sv 9 ev 15 rf 12 lf 14 sp 0
+	29	sv 15 ev 16 rf 13 lf 14 sp 0
+	30	sv 16 ev 6 rf 13 lf 16 sp 0
+	31	sv 10 ev 16 rf 14 lf 15 sp 0
+	32	sv 13 ev 16 rf 15 lf 16 sp 0
+end

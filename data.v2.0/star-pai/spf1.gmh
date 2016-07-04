@@ -1,0 +1,117 @@
+header
+	ppd	2
+	hppd	1
+	hvertex	28
+	hface	23
+	hedge	49
+end
+ppd
+	1	spf1_1.ppd
+	2	spf1_2.ppd
+end
+hvertex
+	1	2 6
+	2	6 7335
+	3	5 8018
+	4	3 12131
+	5	4 7519
+	6	1933 310
+	7	1937 7382
+	8	1936 10581
+	9	1935 11249
+	10	1934 6205
+	11	4839 992
+	12	4986 4076
+	13	4551 1893
+	14	4311 1167
+	15	1931 7210
+	16	283 10036
+	17	2214 10054
+	18	1968 10238
+	19	37 10221
+	20	2083 8807
+	21	152 8979
+	22	10 8672
+	23	1941 8694
+	24	1904 6763
+	25	1910 6445
+	26	3841 5898
+	27	3835 6691
+	28	1930 3004
+end
+hface
+	1	28 13 12 
+	2	13 14 11 12 
+	3	28 1 6 
+	4	11 14 10 4 
+	5	25 24 27 26 
+	6	1 25 26 6 
+	7	1 2 24 25 
+	8	26 27 7 6 
+	9	28 12 11 4 1 
+	10	28 6 10 14 13 
+	11	18 17 16 19 
+	12	21 20 23 22 
+	13	19 16 3 5 
+	14	18 19 5 9 
+	15	8 17 18 9 
+	16	3 16 17 8 
+	17	3 21 22 2 
+	18	2 7 27 24 
+	19	2 22 23 7 
+	20	1 4 5 3 2 
+	21	7 23 20 8 
+	22	8 20 21 3 
+	23	6 7 8 9 10 
+end
+hedge
+	1	sv 12 ev 28 rf 1 lf 9 sp 0
+	2	sv 28 ev 13 rf 1 lf 10 sp 0
+	3	sv 13 ev 12 rf 1 lf 2 sp 0
+	4	sv 13 ev 14 rf 2 lf 10 sp 0
+	5	sv 14 ev 11 rf 2 lf 4 sp 0
+	6	sv 11 ev 12 rf 2 lf 9 sp 0
+	7	sv 6 ev 28 rf 3 lf 10 sp 0
+	8	sv 28 ev 1 rf 3 lf 9 sp 0
+	9	sv 1 ev 6 rf 3 lf 6 sp 0
+	10	sv 4 ev 11 rf 4 lf 9 sp 0
+	11	sv 14 ev 10 rf 4 lf 10 sp 0
+	12	sv 10 ev 4 rf 4 lf 0 sp 0
+	13	sv 26 ev 25 rf 5 lf 6 sp 0
+	14	sv 25 ev 24 rf 5 lf 7 sp 0
+	15	sv 24 ev 27 rf 5 lf 18 sp 0
+	16	sv 27 ev 26 rf 5 lf 8 sp 0
+	17	sv 1 ev 25 rf 6 lf 7 sp 0
+	18	sv 26 ev 6 rf 6 lf 8 sp 0
+	19	sv 1 ev 2 rf 7 lf 20 sp 0
+	20	sv 2 ev 24 rf 7 lf 18 sp 0
+	21	sv 27 ev 7 rf 8 lf 18 sp 0
+	22	sv 7 ev 6 rf 8 lf 23 sp 0
+	23	sv 4 ev 1 rf 9 lf 20 sp 0
+	24	sv 6 ev 10 rf 10 lf 23 sp 0
+	25	sv 19 ev 18 rf 11 lf 14 sp 0
+	26	sv 18 ev 17 rf 11 lf 15 sp 0
+	27	sv 17 ev 16 rf 11 lf 16 sp 0
+	28	sv 16 ev 19 rf 11 lf 13 sp 0
+	29	sv 22 ev 21 rf 12 lf 17 sp 0
+	30	sv 21 ev 20 rf 12 lf 22 sp 0
+	31	sv 20 ev 23 rf 12 lf 21 sp 0
+	32	sv 23 ev 22 rf 12 lf 19 sp 0
+	33	sv 5 ev 19 rf 13 lf 14 sp 0
+	34	sv 16 ev 3 rf 13 lf 16 sp 0
+	35	sv 3 ev 5 rf 13 lf 20 sp 0
+	36	sv 9 ev 18 rf 14 lf 15 sp 0
+	37	sv 5 ev 9 rf 14 lf 0 sp 0
+	38	sv 9 ev 8 rf 15 lf 23 sp 0
+	39	sv 8 ev 17 rf 15 lf 16 sp 0
+	40	sv 8 ev 3 rf 16 lf 22 sp 0
+	41	sv 2 ev 3 rf 17 lf 20 sp 0
+	42	sv 3 ev 21 rf 17 lf 22 sp 0
+	43	sv 22 ev 2 rf 17 lf 19 sp 0
+	44	sv 2 ev 7 rf 18 lf 19 sp 0
+	45	sv 23 ev 7 rf 19 lf 21 sp 0
+	46	sv 4 ev 5 rf 20 lf 0 sp 0
+	47	sv 8 ev 7 rf 21 lf 23 sp 0
+	48	sv 20 ev 8 rf 21 lf 22 sp 0
+	49	sv 9 ev 10 rf 23 lf 0 sp 0
+end

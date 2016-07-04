@@ -1,0 +1,154 @@
+header
+	ppd	2
+	hppd	1
+	hvertex	40
+	hface	29
+	hedge	68
+end
+ppd
+	1	Delorean-Porsche_1.ppd
+	2	Delorean-Porsche_2.ppd
+end
+hvertex
+	1	253 529
+	2	145 1167
+	3	266 1108
+	4	169 1526
+	5	399 473
+	6	254 377
+	7	107 941
+	8	319 1213
+	9	3 1211
+	10	291 611
+	11	292 582
+	12	23 579
+	13	18 294
+	14	73 650
+	15	282 1508
+	16	158 238
+	17	267 924
+	18	215 1284
+	19	229 1369
+	20	298 1581
+	21	47 537
+	22	142 805
+	23	102 789
+	24	90 821
+	25	105 814
+	26	172 85
+	27	181 68
+	28	53 101
+	29	173 96
+	30	365 560
+	31	373 1187
+	32	344 404
+	33	193 1537
+	34	60 1529
+	35	209 1428
+	36	133 4
+	37	8 1662
+	38	317 1228
+	39	383 546
+	40	400 1453
+end
+hface
+	1	23 22 25 24 
+	2	28 29 26 27 
+	3	13 12 11 10 
+	4	8 3 18 9 
+	5	12 14 5 11 
+	6	10 11 5 6 33 
+	7	6 4 29 28 33 
+	8	24 25 2 7 36 
+	9	27 26 32 22 23 
+	10	32 1 35 22 
+	11	22 35 2 25 
+	12	26 34 1 32 
+	13	29 4 34 26 
+	14	33 28 27 
+	15	30 16 14 12 13 
+	16	10 33 27 21 
+	17	21 27 23 
+	18	37 9 18 17 31 
+	19	38 8 9 37 
+	20	30 39 31 
+	21	39 13 10 21 38 37 
+	22	30 13 39 
+	23	39 37 31 
+	24	21 23 36 38 
+	25	36 7 3 8 38 
+	26	23 24 36 
+	27	17 19 40 20 
+	28	20 40 15 16 
+	29	31 17 20 16 30 
+end
+hedge
+	1	sv 24 ev 23 rf 1 lf 26 sp 0
+	2	sv 23 ev 22 rf 1 lf 9 sp 0
+	3	sv 22 ev 25 rf 1 lf 11 sp 0
+	4	sv 25 ev 24 rf 1 lf 8 sp 0
+	5	sv 27 ev 28 rf 2 lf 14 sp 0
+	6	sv 28 ev 29 rf 2 lf 7 sp 0
+	7	sv 29 ev 26 rf 2 lf 13 sp 0
+	8	sv 26 ev 27 rf 2 lf 9 sp 0
+	9	sv 8 ev 9 rf 19 lf 4 sp 0
+	10	sv 10 ev 13 rf 3 lf 21 sp 0
+	11	sv 13 ev 12 rf 3 lf 15 sp 0
+	12	sv 12 ev 11 rf 3 lf 5 sp 0
+	13	sv 11 ev 10 rf 3 lf 6 sp 0
+	14	sv 8 ev 3 rf 4 lf 25 sp 0
+	15	sv 3 ev 18 rf 4 lf 0 sp 0
+	16	sv 18 ev 9 rf 4 lf 18 sp 0
+	17	sv 12 ev 14 rf 5 lf 15 sp 0
+	18	sv 14 ev 5 rf 5 lf 0 sp 0
+	19	sv 5 ev 11 rf 5 lf 6 sp 0
+	20	sv 33 ev 10 rf 6 lf 16 sp 0
+	21	sv 5 ev 6 rf 6 lf 0 sp 0
+	22	sv 6 ev 33 rf 6 lf 7 sp 0
+	23	sv 6 ev 4 rf 7 lf 0 sp 0
+	24	sv 4 ev 29 rf 7 lf 13 sp 0
+	25	sv 28 ev 33 rf 7 lf 14 sp 0
+	26	sv 36 ev 24 rf 8 lf 26 sp 0
+	27	sv 25 ev 2 rf 8 lf 11 sp 0
+	28	sv 2 ev 7 rf 8 lf 0 sp 0
+	29	sv 7 ev 36 rf 8 lf 25 sp 0
+	30	sv 23 ev 27 rf 9 lf 17 sp 0
+	31	sv 26 ev 32 rf 9 lf 12 sp 0
+	32	sv 32 ev 22 rf 9 lf 10 sp 0
+	33	sv 32 ev 1 rf 10 lf 12 sp 0
+	34	sv 1 ev 35 rf 10 lf 0 sp 0
+	35	sv 35 ev 22 rf 10 lf 11 sp 0
+	36	sv 35 ev 2 rf 11 lf 0 sp 0
+	37	sv 26 ev 34 rf 12 lf 13 sp 0
+	38	sv 34 ev 1 rf 12 lf 0 sp 0
+	39	sv 4 ev 34 rf 13 lf 0 sp 0
+	40	sv 27 ev 33 rf 14 lf 16 sp 0
+	41	sv 36 ev 23 rf 26 lf 24 sp 0
+	42	sv 10 ev 21 rf 21 lf 16 sp 0
+	43	sv 13 ev 30 rf 15 lf 22 sp 0
+	44	sv 30 ev 16 rf 15 lf 29 sp 0
+	45	sv 16 ev 14 rf 15 lf 0 sp 0
+	46	sv 17 ev 31 rf 18 lf 29 sp 0
+	47	sv 31 ev 30 rf 20 lf 29 sp 0
+	48	sv 20 ev 17 rf 27 lf 29 sp 0
+	49	sv 16 ev 20 rf 28 lf 29 sp 0
+	50	sv 27 ev 21 rf 16 lf 17 sp 0
+	51	sv 23 ev 21 rf 17 lf 24 sp 0
+	52	sv 9 ev 37 rf 19 lf 18 sp 0
+	53	sv 31 ev 37 rf 18 lf 23 sp 0
+	54	sv 18 ev 17 rf 18 lf 0 sp 0
+	55	sv 37 ev 38 rf 19 lf 21 sp 0
+	56	sv 38 ev 8 rf 19 lf 25 sp 0
+	57	sv 30 ev 39 rf 20 lf 22 sp 0
+	58	sv 39 ev 31 rf 20 lf 23 sp 0
+	59	sv 37 ev 39 rf 21 lf 23 sp 0
+	60	sv 39 ev 13 rf 21 lf 22 sp 0
+	61	sv 21 ev 38 rf 21 lf 24 sp 0
+	62	sv 36 ev 38 rf 24 lf 25 sp 0
+	63	sv 7 ev 3 rf 25 lf 0 sp 0
+	64	sv 17 ev 19 rf 27 lf 0 sp 0
+	65	sv 19 ev 40 rf 27 lf 0 sp 0
+	66	sv 40 ev 20 rf 27 lf 28 sp 0
+	67	sv 40 ev 15 rf 28 lf 0 sp 0
+	68	sv 15 ev 16 rf 28 lf 0 sp 0
+end

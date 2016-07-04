@@ -1,0 +1,37 @@
+header
+	ppd	2
+	hppd	1
+	hvertex	5
+	hface	6
+	hedge	9
+end
+ppd
+	1	bunny-tiger#1_1.ppd
+	2	bunny-tiger#1_2.ppd
+end
+hvertex
+	1	95 86
+	2	136 171
+	3	22 93
+	4	61 109
+	5	146 8
+end
+hface
+	1	4 5 2 
+	2	3 5 4 
+	3	3 4 2 
+	4	3 2 1 
+	5	2 5 1 
+	6	5 3 1 
+end
+hedge
+	1	sv 2 ev 4 rf 1 lf 3 sp 0
+	2	sv 4 ev 5 rf 1 lf 2 sp 0
+	3	sv 5 ev 2 rf 1 lf 5 sp 0
+	4	sv 4 ev 3 rf 2 lf 3 sp 0
+	5	sv 3 ev 5 rf 2 lf 6 sp 0
+	6	sv 2 ev 3 rf 3 lf 4 sp 0
+	7	sv 1 ev 3 rf 4 lf 6 sp 0
+	8	sv 2 ev 1 rf 4 lf 5 sp 0
+	9	sv 5 ev 1 rf 5 lf 6 sp 0
+end
