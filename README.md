@@ -1,4 +1,4 @@
-# gmorph2 (windows version) #
+# gmorph2 (windows version based on src.v2.2a1) #
 
 gmorph2 is a research code for 3D morphing between two meshes with arbitrary connectivies.
 
