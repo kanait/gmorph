@@ -12,10 +12,11 @@ static char THIS_FILE[] = __FILE__;
 #include "smd.h"
 #include "sigproc.h"
 #include "dspr.h"
-#include "linbcg.h"
+//#include "linbcg.h"
 #include "ppdvertex.h"
 #include "veclib.h"
 
+#if 0
 void ppd_signal_processing( Sppd *ppd, 
 			    double lambda,
 			    double mu,
@@ -79,6 +80,7 @@ void ppd_signal_processing( Sppd *ppd,
   free_sparsematrix( smm );
 
 }
+#endif
 
 SparseMatrix *create_spmatrix_dspr( Sppd *ppd, double coefs )
 {

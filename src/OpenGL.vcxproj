@@ -155,7 +155,6 @@
     <ClCompile Include="hged.cpp" />
     <ClCompile Include="hgppd.cpp" />
     <ClCompile Include="hppd.cpp" />
-    <ClCompile Include="linbcg.cpp" />
     <ClCompile Include="MainFrm.cpp" />
     <ClCompile Include="Material.cpp" />
     <ClCompile Include="matlib.cpp" />
@@ -226,7 +225,6 @@
     <ClInclude Include="hged.h" />
     <ClInclude Include="hgppd.h" />
     <ClInclude Include="hppd.h" />
-    <ClInclude Include="linbcg.h" />
     <ClInclude Include="MainFrm.h" />
     <ClInclude Include="Material.h" />
     <ClInclude Include="morphvec.h" />

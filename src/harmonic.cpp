@@ -20,7 +20,7 @@ static char THIS_FILE[] = __FILE__;
 #include "harmonic.h"
 #include "ppdedge.h"
 #include "hgppd.h"
-#include "linbcg.h"
+// #include "linbcg.h"
 
 #define KAPPA 1.0
 
@@ -225,6 +225,7 @@ void hppdharmonic( HPpd *hppd )
     }
 }
 
+#if 0
 /* harmonic mapping functions */
 void hgfcharmonic( HGfc *hgfc, Splp *lp )
 {
@@ -244,6 +245,7 @@ void hgfcharmonic( HGfc *hgfc, Splp *lp )
   free_emat( emat );
   exit_hgfc( hgfc );
 }
+#endif
 
 int initialize_hgfc( HGfc *hgfc )
 {
@@ -269,6 +271,7 @@ int initialize_hgfc( HGfc *hgfc )
   return cnt;
 }
 
+#if 0
 Semat *create_harmonic_emat( HGfc *hgfc )
 {
   int    i, vn;
@@ -424,6 +427,7 @@ void harmonic_initialize_vector( HGfc *hgfc, Splp *lp, Semat *emat )
 
   free(uvbprm);
 }
+#endif
 
 Vec2d *calc_uvbprm( int cn )
 {
@@ -442,6 +446,7 @@ Vec2d *calc_uvbprm( int cn )
   return uvbprm;
 }
 
+#if 0
 void solvec_hgfc( HGfc *hgfc, Semat *emat )
 {
   HGvt *vt;
@@ -451,6 +456,7 @@ void solvec_hgfc( HGfc *hgfc, Semat *emat )
     vt->uvw.y = emat->yy[vt->sid];
   }
 }
+#endif
 
 void exit_hgfc( HGfc *hgfc )
 {
@@ -471,6 +477,7 @@ void exit_hgfc( HGfc *hgfc )
 
 }
 
+#if 0
 /* Semat functions */
 Semat *init_emat( int num )
 {
@@ -499,6 +506,7 @@ void free_emat(Semat *emat)
   free(emat->yy);
   free(emat);
 }
+#endif
 
 /*
 void printemat(Semat *emat)

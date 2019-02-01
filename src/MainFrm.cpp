@@ -1421,7 +1421,7 @@ void CMainFrame::OnMenuFairSp()
 		double  mu = 1.0 / ( kpb - (1.0 / lambda) );
 		int		num = sfidlg.m_sfi_num;
 
-		ppd_signal_processing( swin->morph_ppd, lambda, mu, num );
+		// ppd_signal_processing( swin->morph_ppd, lambda, mu, num );
 		AfxMessageBox("fairing is done.");
 
 		swin->screenatr[SCREEN_SRC].wnd->RedrawWindow();
