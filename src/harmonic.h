@@ -1,4 +1,20 @@
-/* harmonic.c */
+//
+// harmonic.h
+//
+// Copyright (c) 1996-1998 Takashi Kanai
+//
+// This software is released under the MIT License.
+// http://opensource.org/licenses/mit-license.php
+//
+
+#ifndef _HARMONIC_H
+#define _HARMONIC_H
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+extern void hgfcharmonic_Eigen( HGfc *, Splp * );
 extern void hppdharmonic(HPpd *);
 extern void hgfcharmonic(HGfc *, Splp *);
 extern int initialize_hgfc(HGfc *);
@@ -11,3 +27,9 @@ extern void exit_hgfc(HGfc *);
 extern Semat *init_emat(int);
 extern void free_emat(Semat *);
 extern void printemat(Semat *);
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif // _HARMONIC_H
