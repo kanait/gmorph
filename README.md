@@ -27,7 +27,7 @@ In the data.v2.0 folder, all examples used in the paper are included. You can se
 
 This software uses MFC (Microsoft Foundation Class). Then, to build this software, VS2015 Professional or upper versions are required for Windows application.
 
-This software also requires [Eigen](http://eigen.tuxfamily.org/) library. When you execute "git clone" with "--recursive" option, You will also get eigen as a submodule "external/eigen":
+This software also requires [Eigen](http://eigen.tuxfamily.org/) library. When you execute "git clone" with "--recursive" option, You will also get Eigen library as a submodule "external/eigen":
 
 ```
 git clone ssh://git@gitlab.kanai-lab.org:20022/kanai/gmorph2win.git --recursive
