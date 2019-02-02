@@ -109,7 +109,7 @@
       <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
       <ObjectFileName>.\Release\</ObjectFileName>
       <ProgramDataBaseFileName>.\Release\</ProgramDataBaseFileName>
-      <AdditionalIncludeDirectories>C:\Users\kanai\Dropbox\ResearchTraining\Eigen\eigen-eigen-323c052e1731</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\external\eigen</AdditionalIncludeDirectories>
     </ClCompile>
     <Midl>
       <SuppressStartupBanner>true</SuppressStartupBanner>
