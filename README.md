@@ -30,7 +30,7 @@ This software uses MFC (Microsoft Foundation Class). Then, to build this softwar
 This software also requires [Eigen](http://eigen.tuxfamily.org/) library. When you execute "git clone" with "--recursive" option, You will also get Eigen library as a submodule "external/eigen":
 
 ```
-git clone ssh://git@gitlab.kanai-lab.org:20022/kanai/gmorph2win.git --recursive
+git clone git@github.com:kanait/gmorph.git --recursive
 ```
 ## Authors
 
