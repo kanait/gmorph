@@ -93,7 +93,7 @@ BOOL COpenGLApp::InitInstance()
 		return FALSE;
 
 	// メイン ウィンドウが初期化されたので、表示と更新を行います。
-	CString strTitle = _T("Gmorph Ver. 2.2 alpha release #1 (Win32 Version)");
+	CString strTitle = _T("Gmorph (Win32 MFC Version)");
 	m_pMainWnd ->SetWindowText( strTitle );
 	m_pMainWnd->ShowWindow( SW_SHOW );
 	m_pMainWnd->UpdateWindow();

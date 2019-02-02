@@ -226,9 +226,9 @@ CAPTION "Version Information"
 FONT 9, "‚l‚r ‚oƒSƒVƒbƒN"
 BEGIN
     ICON            IDR_MAINFRAME,IDC_STATIC,11,11,20,20
-    CONTROL         "GMorph Ver. 2.2 alpha 0",IDC_STATIC,"Static",SS_SIMPLE | 
+    CONTROL         "GMorph Ver.2.2",IDC_STATIC,"Static",SS_SIMPLE | 
                     SS_NOPREFIX | WS_GROUP,40,10,119,8
-    LTEXT           "Copyright (C) 1998 by Takashi Kanai",IDC_STATIC,40,31,
+    LTEXT           "Copyright (C) 1997-1998 Takashi Kanai",IDC_STATIC,40,31,
                     119,8
     DEFPUSHBUTTON   "OK",IDOK,180,7,32,14,WS_GROUP
 END
@@ -434,16 +434,16 @@ BEGIN
         BLOCK "041104b0"
         BEGIN
             VALUE "Comments", "\0"
-            VALUE "CompanyName", "Materials Fabrication Lab. RIKEN\0"
+            VALUE "CompanyName", "The University of Tokyo\0"
             VALUE "FileDescription", "OpenGL MFC Application\0"
-            VALUE "FileVersion", "2.2 alpha 1\0"
+            VALUE "FileVersion", "2.2\0"
             VALUE "InternalName", "GMorph\0"
-            VALUE "LegalCopyright", "Copyright (C) 1998\0"
+            VALUE "LegalCopyright", "Copyright (C) 1997-1998\0"
             VALUE "LegalTrademarks", "Takashi Kanai\0"
             VALUE "OriginalFilename", "Gmorph.EXE\0"
             VALUE "PrivateBuild", "\0"
             VALUE "ProductName", "OpenGL Application\0"
-            VALUE "ProductVersion", "2.2 alpha 1\0"
+            VALUE "ProductVersion", "2.2\0"
             VALUE "SpecialBuild", "\0"
         END
     END
