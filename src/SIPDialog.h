@@ -1,11 +1,18 @@
+//
+// SIPDialog.h
+//
+// Copyright (c) 1998 Takashi Kanai
+//
+// This software is released under the MIT License.
+// http://opensource.org/licenses/mit-license.php
+//
+
 #if !defined(AFX_SIPDIALOG_H__31C98630_48A3_11D2_AB68_00E029217E15__INCLUDED_)
 #define AFX_SIPDIALOG_H__31C98630_48A3_11D2_AB68_00E029217E15__INCLUDED_
 
 #if _MSC_VER >= 1000
 #pragma once
 #endif // _MSC_VER >= 1000
-// SIPDialog.h : ヘッダー ファイル
-//
 
 /////////////////////////////////////////////////////////////////////////////
 // CSIPDialog ダイアログ

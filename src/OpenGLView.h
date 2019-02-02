@@ -1,4 +1,10 @@
-// OpenGLView.h : COpenGLView クラスの宣言およびインターフェイスの定義をします。
+//
+// OpenGLView.h
+//
+// Copyright (c) 1998 Takashi Kanai
+//
+// This software is released under the MIT License.
+// http://opensource.org/licenses/mit-license.php
 //
 /////////////////////////////////////////////////////////////////////////////
 

@@ -1,4 +1,15 @@
-/* hgppd.c */
+//
+// hgppd.h
+//
+// Copyright (c) 1997-1998 Takashi Kanai
+//
+// This software is released under the MIT License.
+// http://opensource.org/licenses/mit-license.php
+//
+
+#ifndef _HGPPD_H
+#define _HGPPD_H
+
 extern HGppd *create_hgppd(void);
 extern void free_hgppd(HGppd *);
 extern HGfc *create_hgppdface(HGppd *);
@@ -53,3 +64,5 @@ extern void HGfcTriangulation(HGfc *);
 extern void HGsfTriangulation(HGsf *, HGfc *);
 extern void HGfcTriangulation_noEdge(HGfc *);
 extern void HGsfTriangulation_noEdge(HGsf *, HGfc *);
+
+#endif // _HGPPD_H

@@ -1,4 +1,15 @@
-/* hppd.c */
+//
+// hppd.h
+//
+// Copyright (c) 1997-1998 Takashi Kanai
+//
+// This software is released under the MIT License.
+// http://opensource.org/licenses/mit-license.php
+//
+
+#ifndef _HPPD_H
+#define _HPPD_H
+
 extern HPpd *create_hppd(void);
 extern void FreeHppdEdge(HPpd *);
 extern void FreeHppdFace(HPpd *);
@@ -25,3 +36,5 @@ extern HHalfedge *free_hppdhalfedge(HHalfedge *, HFace *);
 extern void calc_hppd_boundary(HPpd *);
 extern void create_hloop(HFace *, HPpd *);
 extern int lp_start_end(Splp *, Spvt *);
+
+#endif // _HPPD_H

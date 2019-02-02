@@ -1,4 +1,11 @@
-/* Copyright (c) 1997 Takashi Kanai; All rights reserved. */
+//
+// color.h
+//
+// Copyright (c) 1997 Takashi Kanai
+//
+// This software is released under the MIT License.
+// http://opensource.org/licenses/mit-license.php
+//
 
 #ifndef _COLOR_H
 #define _COLOR_H

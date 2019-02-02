@@ -1,4 +1,10 @@
-// SRDialog.cpp : インプリメンテーション ファイル
+//
+// SRDialog.cpp
+//
+// Copyright (c) 1998 Takashi Kanai
+//
+// This software is released under the MIT License.
+// http://opensource.org/licenses/mit-license.php
 //
 
 #include "stdafx.h"

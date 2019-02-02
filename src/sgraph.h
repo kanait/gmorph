@@ -1,4 +1,15 @@
-/* sgraph.c */
+//
+// sgraph.h
+//
+// Copyright (c) 1997-1998 Takashi Kanai
+//
+// This software is released under the MIT License.
+// http://opensource.org/licenses/mit-license.php
+//
+
+#ifndef _SGRAPH_H
+#define _SGRAPH_H
+
 extern SGraph *create_sgraph(void);
 extern void free_sgraph(SGraph *);
 extern SGvt *create_sgvt(SGraph *);
@@ -48,3 +59,5 @@ extern void manual_shortest_path(ScreenAtr *);
 extern Splp *sellist_to_splp(ScreenAtr *);
 extern void screen_initialize_sgraph(ScreenAtr *);
 extern void screen_exit_sgraph(ScreenAtr *);
+
+#endif // _SGRAPH_H

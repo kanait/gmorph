@@ -1,18 +1,28 @@
-/* Copyright (c) 1997-1998 by Takashi Kanai; All rights reserved. */
+//
+// smd.h
+//
+// Copyright (c) 1997-1998 Takashi Kanai
+//
+// This software is released under the MIT License.
+// http://opensource.org/licenses/mit-license.php
+//
 
-typedef	int Id;
+#ifndef _SMD_H
+#define _SMD_H
+
+typedef int Id;
 
 /* fundermental items list */
 
 typedef struct _vec {
-  double	x;
-  double	y;
-  double	z;
+  double x;
+  double y;
+  double z;
 } Vec;
 
 typedef struct _vec2d {
-  double	x;
-  double	y;
+  double x;
+  double y;
 } Vec2d;
 
 typedef struct _mat3 {		/* 3-by-3 matrix */
@@ -23,7 +33,7 @@ typedef struct _mat4 {		/* 4-by-4 matrix */
   double   elm[4][4];
 } Mat4;
 
-typedef double **Vmtx;
+//typedef double **Vmtx;
 
 /* matrix structure for linbcg */
 typedef struct _semat {
@@ -396,7 +406,7 @@ struct _spvt{
   Spvt  *mvt;
 
   /* for shortest path */
-/*   SGvt *sgvt; */
+  /*   SGvt *sgvt; */
   
   /* もうすぐいらなくなる? */
   PQCont *pqc;
@@ -450,14 +460,14 @@ struct _sped {
   Sped  *nxt, *prv;
 
   /* for quadtree */
-/*   QEdge *qe; */
+  /*   QEdge *qe; */
   
   /* edge->vertex */
   int evn; Edvt *sedvt, *eedvt;
 
   /* for morphing */
-/*   int flag; */
-/*   Sped *med; */
+  /*   int flag; */
+  /*   Sped *med; */
 
   /* loop check */
   int    used_loop;
@@ -504,7 +514,7 @@ struct _splv {
   /* links use in "hgfcharmonic" */
   HGvt *hgvt;
   
-/*   Splp *bplp; */
+  /*   Splp *bplp; */
   
   Spvt *vt;
   
@@ -520,7 +530,7 @@ struct _sple {
   /* links to hgvt ( for hloop ) */
   /* links create in "hloop_to_hgppd" */
   /* links use in "hgfcharmonic" */
-/*   HGed *hged; */
+  /*   HGed *hged; */
   
   Sple *nxt, *prv;
   
@@ -749,9 +759,9 @@ struct _hgfc {
   int hgsn; HGsf *shgsf, *ehgsf;
   
   /* for calculating barycentric coordinates */
-/*   int  cvn; */
-/*   Spvt **cvt; */
-/*   Spvt *cvt[TRIANGLE]; */
+  /*   int  cvn; */
+  /*   Spvt **cvt; */
+  /*   Spvt *cvt[TRIANGLE]; */
   
   /* hface */
   HFace *hf;
@@ -782,7 +792,7 @@ struct _hgvtvt {
   Id    id;
   double val;
   
-/*   HGvt *vt; */
+  /*   HGvt *vt; */
   
   HGvtvt *nxt, *prv;
 
@@ -941,12 +951,12 @@ struct _hgsf {
   int  no;
   Vec  nrm;
 
-/*   Sphe  *sphe; */
+  /*   Sphe  *sphe; */
   int   hen;
   HGhe  *shghe;
   
-/*   HGvt *vt[TRIANGLE]; */
-/*   HGed *ed[TRIANGLE]; */
+  /*   HGvt *vt[TRIANGLE]; */
+  /*   HGed *ed[TRIANGLE]; */
 
   QFace *qf;
   
@@ -1187,10 +1197,10 @@ typedef struct _screenatr {
   int            no;
   int            type;                    /* screen type (2D, 3D) */
   int            resize;
-//  Widget         glw;
-//  XVisualInfo    *vi;
-//  GLXContext     xc;
-//  Widget         fr3d;
+  //  Widget         glw;
+  //  XVisualInfo    *vi;
+  //  GLXContext     xc;
+  //  Widget         fr3d;
   CWnd *wnd;
 
   /* width, height */
@@ -1257,20 +1267,20 @@ typedef struct _screenatr {
 
 typedef struct _display3d {
 
-	int	vertex;
-	int wire;
-	int shading;
-	int coaxis;
-	int loop;
-	int group;
-	int cpoint;
-	int cmesh;
-	int spath;
-	int hmap;
-	int area;
-	int enhanced;
-	int smooth;
-	int interp;
+  int	vertex;
+  int wire;
+  int shading;
+  int coaxis;
+  int loop;
+  int group;
+  int cpoint;
+  int cmesh;
+  int spath;
+  int hmap;
+  int area;
+  int enhanced;
+  int smooth;
+  int interp;
 
 } Disp3D;
 
@@ -1279,63 +1289,63 @@ typedef struct _display3d {
 
 typedef struct _swin {
 
-	// window wize
-	int width;
-	int height;
+  // window wize
+  int width;
+  int height;
 
-	// edit type
-	int            edit_type;
-	unsigned short select_type;
+  // edit type
+  int            edit_type;
+  unsigned short select_type;
 
-	// window dependent parameters 
-	ScreenAtr screenatr[2];
+  // window dependent parameters 
+  ScreenAtr screenatr[2];
 
-	// display structure 
-	Disp3D    dis3d;
+  // display structure 
+  Disp3D    dis3d;
 
-	// default materials 
-	Material  *material;
+  // default materials 
+  Material  *material;
 
-	// menu mode parameters
-	// file flag (decide *.<***>) 
-	unsigned short filed;
-	// file open flag (0 : open 1 : save) 
-	unsigned short opend;
+  // menu mode parameters
+  // file flag (decide *.<***>) 
+  unsigned short filed;
+  // file open flag (0 : open 1 : save) 
+  unsigned short opend;
 
-	/* Matrix for ps */
-	double mmat[16];
-	double pmat[16];
+  /* Matrix for ps */
+  double mmat[16];
+  double pmat[16];
   
-	/* build gui or not */
-	int   prn;
+  /* build gui or not */
+  int   prn;
 
-	/* morph ppd */
-	Sppd *morph_ppd;
-	int  mdiv;
+  /* morph ppd */
+  Sppd *morph_ppd;
+  int  mdiv;
 
-	/* tile display */
-	int  tileno;
+  /* tile display */
+  int  tileno;
   
-	/* harmonic ppd */
-	HPpd *hppd;
+  /* harmonic ppd */
+  HPpd *hppd;
 
-	/* for smooth shading */
-//	int smooth_shading;
+  /* for smooth shading */
+  //	int smooth_shading;
 
-	/* for displaying vertices as spheres, edges as tubes */
-//	int ext_display;
+  /* for displaying vertices as spheres, edges as tubes */
+  //	int ext_display;
 
-	/* for making subgraph */
-	double sublength;
+  /* for making subgraph */
+  double sublength;
 
-	/* save harmonic map to postscript file */
-	int savehmtops;
+  /* save harmonic map to postscript file */
+  int savehmtops;
   
-	/* save morphing results to SGI image files. */
-	int saveimg;
+  /* save morphing results to SGI image files. */
+  int saveimg;
 
-	/* view attributes. */
-//	int view_attribs;
+  /* view attributes. */
+  //	int view_attribs;
   
 } Swin;
 
@@ -1412,3 +1422,4 @@ extern void displayinfo(char *,...);
 
 extern Swin *swin;
 
+#endif // _SMD_H

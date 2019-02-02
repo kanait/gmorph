@@ -1,4 +1,10 @@
-// OpenGLView.cpp : COpenGLView クラスの動作の定義を行います。
+//
+// OpenGLView.cpp
+//
+// Copyright (c) 1998 Takashi Kanai
+//
+// This software is released under the MIT License.
+// http://opensource.org/licenses/mit-license.php
 //
 
 #include "stdafx.h"

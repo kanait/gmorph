@@ -1,4 +1,11 @@
-/* Copyright (c) 1997-1998 Takashi Kanai; All rights reserved. */
+//
+// ps.cpp
+//
+// Copyright (c) 1997-1998 Takashi Kanai
+//
+// This software is released under the MIT License.
+// http://opensource.org/licenses/mit-license.php
+//
 
 /* function for Adobe Postsrcipt file */
 

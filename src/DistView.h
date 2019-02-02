@@ -1,11 +1,18 @@
+//
+// DistView.h
+//
+// Copyright (c) 1998 Takashi Kanai
+//
+// This software is released under the MIT License.
+// http://opensource.org/licenses/mit-license.php
+//
+
 #if !defined(AFX_DISTVIEW_H__5FA3EEF0_31C4_11D2_AB57_00E029217E15__INCLUDED_)
 #define AFX_DISTVIEW_H__5FA3EEF0_31C4_11D2_AB57_00E029217E15__INCLUDED_
 
 #if _MSC_VER >= 1000
 #pragma once
 #endif // _MSC_VER >= 1000
-// DistView.h : ヘッダー ファイル
-//
 
 /////////////////////////////////////////////////////////////////////////////
 // CDistView ビュー

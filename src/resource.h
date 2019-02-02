@@ -1,3 +1,11 @@
+//
+// resource.h
+//
+// Copyright (c) 1998 Takashi Kanai
+//
+// This software is released under the MIT License.
+// http://opensource.org/licenses/mit-license.php
+//
 //{{NO_DEPENDENCIES}}
 // Microsoft Developer Studio generated include file.
 // Used by OpenGL.rc

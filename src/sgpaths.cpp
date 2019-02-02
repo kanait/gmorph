@@ -1,5 +1,12 @@
-// Copyright (c) 1997-1998 Takashi Kanai; All rights reserved.
+//
+// sellist.h
 // Shortest path functions (SGraph version) 
+//
+// Copyright (c) 1997-1998 Takashi Kanai
+//
+// This software is released under the MIT License.
+// http://opensource.org/licenses/mit-license.php
+//
 
 #include "stdafx.h"
 

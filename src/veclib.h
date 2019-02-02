@@ -1,4 +1,15 @@
-/* veclib.c */
+//
+// veclib.h
+//
+// Copyright (c) 1997-1998 Takashi Kanai
+//
+// This software is released under the MIT License.
+// http://opensource.org/licenses/mit-license.php
+//
+
+#ifndef _VECLIB_H
+#define _VECLIB_H
+
 extern double V2SquaredLength(Vec2d *);
 extern double V2Length(Vec2d *);
 extern Vec2d *V2Negate(Vec2d *);
@@ -40,3 +51,5 @@ extern double V3SquaredDistanceBetween2Points(Vec *, Vec *);
 extern Vec *V3MulPointByMatrix(Vec *, Mat3 *, Vec *);
 extern Vec *V3MulPointByProjMatrix(Vec *, Mat4 *, Vec *);
 extern Mat4 *V3MatMul(Mat4 *, Mat4 *, Mat4 *);
+
+#endif // _VECLIB_H

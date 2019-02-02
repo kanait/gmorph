@@ -1,11 +1,18 @@
+//
+// SRDialog.h
+//
+// Copyright (c) 1998 Takashi Kanai
+//
+// This software is released under the MIT License.
+// http://opensource.org/licenses/mit-license.php
+//
+
 #if !defined(AFX_SRDIALOG_H__A20A96A2_496A_11D2_AB68_00E029217E15__INCLUDED_)
 #define AFX_SRDIALOG_H__A20A96A2_496A_11D2_AB68_00E029217E15__INCLUDED_
 
 #if _MSC_VER >= 1000
 #pragma once
 #endif // _MSC_VER >= 1000
-// SRDialog.h : ヘッダー ファイル
-//
 
 /////////////////////////////////////////////////////////////////////////////
 // CSRDialog ダイアログ

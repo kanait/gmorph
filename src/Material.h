@@ -1,5 +1,14 @@
+//
 // Material.h
-// created by T.Kanai 1998.08.02
+//
+// Copyright (c) 1998 Takashi Kanai
+//
+// This software is released under the MIT License.
+// http://opensource.org/licenses/mit-license.php
+//
+
+#ifndef _MATERIAL_H
+#define _MATERIAL_H
 
 #if _MSC_VER >= 1000
 #pragma once
@@ -27,3 +36,4 @@ public:
 	void Binding();
 };
 
+#endif // _MATERIAL_H

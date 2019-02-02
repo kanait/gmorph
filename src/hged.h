@@ -1,4 +1,15 @@
-/* hged.c */
+//
+// hged.h
+//
+// Copyright (c) 1997-1998 Takashi Kanai
+//
+// This software is released under the MIT License.
+// http://opensource.org/licenses/mit-license.php
+//
+
+#ifndef _HGED_H
+#define _HGED_H
+
 extern HGed *create_hgppdedge(HGfc *);
 extern void free_hgppdedge(HGed *, HGfc *);
 extern HGed *find_hgppdedge(HGvt *, HGvt *);
@@ -20,3 +31,5 @@ extern void free_start_hgedvtnode(HGedvtList *);
 extern HGeded *create_hgeded(HGed *);
 extern void free_hgppdedgeedge(HGed *);
 extern void free_hgeded(HGeded *, HGed *);
+
+#endif // _HGED_H

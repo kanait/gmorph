@@ -1,4 +1,11 @@
-/* Copyright (c) 1997-1998 by Takashi Kanai; All rights researved. */
+//
+// matlib.cpp
+//
+// Copyright (c) 1997-1998 Takashi Kanai
+//
+// This software is released under the MIT License.
+// http://opensource.org/licenses/mit-license.php
+//
 
 #include "stdafx.h"
 
@@ -10,6 +17,8 @@ static char THIS_FILE[] = __FILE__;
 
 #include <math.h>
 #include "smd.h"
+
+#include "matlib.h"
 
 /* "Vmtx"        : Holds the original and inverse and 
    "actual_size" : Actual size of matrix in use, (high_subscript+1) */
@@ -146,137 +155,9 @@ void MultMatrix(Vmtx firstM, Vmtx secondM, Vmtx outM, int firstrows,
     for (j = 0; j < firstrows; j++) {
       sum = 0.0;
       for (k = 0; k < cols; k++)
-	sum += firstM[j][k] * secondM[k][i];
+        sum += firstM[j][k] * secondM[k][i];
       outM[j][i] = sum;
     }
-}
-
-void InvertMatrix4(double *mat, double *inv)
-{
-  int    i, j;
-  double d;
-  int    *index, size;
-  double *col;
-  Vmtx   vmat, vinv;
-  void   ludcmp(Vmtx, int, int *, double *);
-  void   lubksb(Vmtx, int, int *, double *);
-
-  size = 4;
-  index = (int *) malloc(size * sizeof(int));
-  col   = (double *) malloc(size * sizeof(double));
-
-  /* convert */
-  vmat  = (double **) malloc(size * sizeof(double *));
-  vinv  = (double **) malloc(size * sizeof(double *));
-  for (i = 0; i < size; ++i) {
-    vmat[i] = (double *) malloc(size * sizeof(double));
-    vinv[i] = (double *) malloc(size * sizeof(double));
-    for (j = 0; j < size; ++j) {
-      vmat[i][j] = mat[j * size + i];
-    }
-  }
-  /* main routine */
-  ludcmp(vmat, size, index, &d);
-  for (j = 0; j < size; ++j) {
-    for (i = 0; i < size; ++i) col[i] = 0.0;
-    col[j] = 1.0;
-    lubksb(vmat, size, index, col);
-    for (i = 0; i < size; ++i) vinv[i][j] = col[i];
-  }
-  /* convert */
-  for (i = 0; i < size; ++i) {
-    for (j = 0; j < size; ++j) {
-      inv[j * size + i] = vinv[i][j];
-    }
-  }
-  /* free */
-  for (i = 0; i < size; ++i) {
-    free(vmat[i]);
-    free(vinv[i]);
-  }
-  free(vmat);
-  free(vinv);
-  
-  free(col);
-  free(index);
-}  
-
-#define TINY 1.0e-20
-
-void ludcmp(Vmtx a, int n, int *indx, double *d)
-{
-  int    i, imax, j, k;
-  double big, dum, sum, temp;
-  double *vv;
-
-  vv = (double *) malloc(n * sizeof(double));
-  *d = 1.0;
-  for (i = 0; i < n; i++) {
-    big = 0.0;
-    for (j = 0; j < n; j++)
-      if ((temp = fabs(a[i][j])) > big) big = temp;
-    if (fabs(big - 0.0) < TINY) {
-      fprintf(stderr, "Singular matrix in routine ludcmp\n");
-    }
-    vv[i] = 1.0 / big;
-  }
-  for (j = 0; j < n; j++) {
-    for (i = 0; i < j; i++) {
-      sum=a[i][j];
-      for (k = 0; k < i; k++) sum -= a[i][k] * a[k][j];
-      a[i][j] = sum;
-    }
-    big = 0.0;
-    for (i = j; i < n; i++) {
-      sum=a[i][j];
-      for (k = 0; k < j; k++)
-	sum -= a[i][k] * a[k][j];
-      a[i][j] = sum;
-      if ((dum = vv[i] * fabs(sum)) >= big) {
-	big = dum;
-	imax = i;
-      }
-    }
-    if (j != imax) {
-      for (k = 0; k < n; k++) {
-	dum = a[imax][k];
-	a[imax][k] = a[j][k];
-	a[j][k] = dum;
-      }
-      *d = -(*d);
-      vv[imax] = vv[j];
-    }
-    indx[j] = imax;
-    if (fabs(a[j][j] - 0.0) < TINY) a[j][j] = TINY;
-    if (j != n) {
-      dum = 1.0 / (a[j][j]);
-      for (i = j + 1; i < n; i++) a[i][j] *= dum;
-    }
-  }
-  free(vv);
-}
-
-void lubksb(Vmtx a, int n, int *indx, double *b)
-{
-  int    i, ii = 0, ip, j;
-  double sum;
-
-  for (i = 0; i < n; i++) {
-    ip = indx[i];
-    sum = b[ip];
-    b[ip] = b[i];
-    if (ii) {
-      for (j = ii; j <= i-1; j++) sum -= a[i][j] * b[j];
-    } else if (sum) {
-      ii = i;
-    }
-    b[i] = sum;
-  }
-  for (i = n - 1; i >= 0; i--) {
-    sum = b[i];
-    for (j = i+1; j < n; j++) sum -= a[i][j] * b[j];
-    b[i] = sum / a[i][i];
-  }
 }
 
 void rot_x(double val, Vec *vec)
@@ -566,15 +447,4 @@ void EqualMatrix4(double *mat, double* mat1)
 
   for (i = 0; i < 16; ++i) mat1[i] = mat[i];
 }
-
-#undef TINY      
-
-
-
-
-
-
-
-
-
 

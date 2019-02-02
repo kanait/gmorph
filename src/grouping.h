@@ -1,4 +1,15 @@
-/* grouping.c */
+//
+// grouping.h
+//
+// Copyright (c) 1997-1998 Takashi Kanai
+//
+// This software is released under the MIT License.
+// http://opensource.org/licenses/mit-license.php
+//
+
+#ifndef _GROUPING_H
+#define _GROUPING_H
+
 extern void hppd_to_hgppd(HPpd *);
 extern void subdivide_ppdedges(HPpd *);
 extern void cmesh_group_hppd(HPpd *);
@@ -20,3 +31,5 @@ extern void coincident_hface_hgface(HPpd *, HGfc *, int);
 extern int coincidence_hface_hgfc(int, Spvt **, Spvt **);
 extern void HGfcOrderBoundaryEdges(HPpd *, int);
 extern void hgppd_make_edge_vertex_links(HPpd *, int);
+
+#endif // _GROUPING_H

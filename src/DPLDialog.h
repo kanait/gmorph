@@ -1,11 +1,18 @@
+//
+// DPLDialog.h
+//
+// Copyright (c) 1998 Takashi Kanai
+//
+// This software is released under the MIT License.
+// http://opensource.org/licenses/mit-license.php
+//
+
 #if !defined(AFX_DPLDIALOG_H__9989C772_478E_11D2_AB66_00E029217E15__INCLUDED_)
 #define AFX_DPLDIALOG_H__9989C772_478E_11D2_AB66_00E029217E15__INCLUDED_
 
 #if _MSC_VER >= 1000
 #pragma once
 #endif // _MSC_VER >= 1000
-// DPLDialog.h : ヘッダー ファイル
-//
 
 /////////////////////////////////////////////////////////////////////////////
 // CDPLDialog ダイアログ

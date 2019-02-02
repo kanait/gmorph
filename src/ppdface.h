@@ -1,4 +1,15 @@
-/* ppdface.c */
+//
+// ppdface.h
+//
+// Copyright (c) 1997 Takashi Kanai
+//
+// This software is released under the MIT License.
+// http://opensource.org/licenses/mit-license.php
+//
+
+#ifndef _PPDFACE_H
+#define _PPDFACE_H
+
 extern Spfc *create_ppdface(Sppd *);
 extern Spfc *create_ppdface_hedge(Sppd *, Spvt *, Spvt *, Spvt *, Sped *, Sped *, Sped *);
 extern Spvt *other_vertices_face_left(Spfc *, Spvt *);
@@ -13,3 +24,5 @@ extern Sphe *find_hedge_edge(Sped *, Spfc *);
 extern void calc_fnorm(Spfc *);
 extern void cancel_create_ppdface(void);
 extern void cancel_delete_ppdface(void);
+
+#endif // _PPDFACE_H

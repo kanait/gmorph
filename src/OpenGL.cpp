@@ -1,4 +1,10 @@
-// OpenGL.cpp : アプリケーション用クラスの機能定義を行います。
+//
+// OpenGL.cpp
+//
+// Copyright (c) 1998 Takashi Kanai
+//
+// This software is released under the MIT License.
+// http://opensource.org/licenses/mit-license.php
 //
 
 #include "stdafx.h"

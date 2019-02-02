@@ -1,4 +1,11 @@
-/* Copyright (c) 1997 Takashi Kanai; All rights reserved. */
+//
+// ppdedge.cpp
+//
+// Copyright (c) 1997 Takashi Kanai
+//
+// This software is released under the MIT License.
+// http://opensource.org/licenses/mit-license.php
+//
 
 #include "stdafx.h"
 

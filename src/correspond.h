@@ -1,4 +1,15 @@
-/* correspond.c */
+//
+// correspond.h
+//
+// Copyright (c) 1997-1998 Takashi Kanai
+//
+// This software is released under the MIT License.
+// http://opensource.org/licenses/mit-license.php
+//
+
+#ifndef _CORRESPOND_H
+#define _CORRESPOND_H
+
 extern Sppd *hppd_to_gppd(HPpd *);
 extern void create_mhgfc(HPpd *);
 extern void HGfcMakeSign(HPpd *);
@@ -37,3 +48,5 @@ extern void HVertexCreateHGvted(HGfc *);
 extern HGvted *find_right_hgvted(HGvt *, HGvt *);
 extern void mhgfc_create_mhgsf(HGfc *);
 extern void mhgfc_to_gppd(HGfc *, Sppd *);
+
+#endif // _CORRESPOND_H

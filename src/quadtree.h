@@ -1,4 +1,15 @@
-/* quadtree.c */
+//
+// quadtree.h
+//
+// Copyright (c) 1997-1998 Takashi Kanai
+//
+// This software is released under the MIT License.
+// http://opensource.org/licenses/mit-license.php
+//
+
+#ifndef _QUADTREE_H
+#define _QUADTREE_H
+
 extern QTree *create_qtreechild(QTree *, int, int, double, double, double, double);
 extern QTree *create_qtreechild_qr(QTree *, int, int, QRange *);
 extern QVertex *insert_qtree_vertex(Spvt *, QTree *);
@@ -29,3 +40,5 @@ extern void free_hgppdqtree_child(QTree *, HGfc *);
 extern void hgppdsurface_to_hgppdqtree(HGfc *);
 extern void decide_qface_child(QTree *, HGsf *, HGfc *);
 extern void printqface(QTree *);
+
+#endif // _QUADTREE_H

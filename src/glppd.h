@@ -1,4 +1,15 @@
-/* glppd.c */
+//
+// glppd.h
+//
+// Copyright (c) 1995-1997 Takashi Kanai
+//
+// This software is released under the MIT License.
+// http://opensource.org/licenses/mit-license.php
+//
+
+#ifndef _GLPPD_H
+#define _GLPPD_H
+
 extern void drawppd_vertex(Sppd *, ScreenAtr *);
 extern void drawppd_vertex_enhanced(Sppd *, ScreenAtr *);
 extern void drawppd_edge(Sppd *, ScreenAtr *);
@@ -22,3 +33,5 @@ extern void drawhppd_hmap(HPpd *, ScreenAtr *);
 extern void glu_sphere(Vec *, double);
 extern void glu_cylinder(Vec *, Vec *, double);
 extern void material_binding(Material *);
+
+#endif // _GLPPD_H

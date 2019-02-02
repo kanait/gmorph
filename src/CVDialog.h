@@ -1,11 +1,18 @@
+//
+// CVDialog.h
+//
+// Copyright (c) 1998 Takashi Kanai
+//
+// This software is released under the MIT License.
+// http://opensource.org/licenses/mit-license.php
+//
+
 #if !defined(AFX_CVDIALOG_H__969674B1_45F4_11D2_AB65_00E029217E15__INCLUDED_)
 #define AFX_CVDIALOG_H__969674B1_45F4_11D2_AB65_00E029217E15__INCLUDED_
 
 #if _MSC_VER >= 1000
 #pragma once
 #endif // _MSC_VER >= 1000
-// CVDialog.h : ヘッダー ファイル
-//
 
 /////////////////////////////////////////////////////////////////////////////
 // CCVDialog ダイアログ

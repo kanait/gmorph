@@ -1,4 +1,11 @@
-/* Copyright (c) 1997-1998 Takashi Kanai; All rights reserved. */
+//
+// mtl.h
+//
+// Copyright (c) 1997-1998 Takashi Kanai
+//
+// This software is released under the MIT License.
+// http://opensource.org/licenses/mit-license.php
+//
 
 #ifndef _MTL_H
 #define _MTL_H
@@ -319,4 +326,4 @@ static Material tropical9[] = {
 
 extern void material_binding( Material * );
 
-#endif
+#endif // _MTL_H

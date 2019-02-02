@@ -1,11 +1,18 @@
+//
+// DPFDialog.h
+//
+// Copyright (c) 1998 Takashi Kanai
+//
+// This software is released under the MIT License.
+// http://opensource.org/licenses/mit-license.php
+//
+
 #if !defined(AFX_DPFDIALOG_H__53ADA712_47A9_11D2_AB66_00E029217E15__INCLUDED_)
 #define AFX_DPFDIALOG_H__53ADA712_47A9_11D2_AB66_00E029217E15__INCLUDED_
 
 #if _MSC_VER >= 1000
 #pragma once
 #endif // _MSC_VER >= 1000
-// DPFDialog.h : ヘッダー ファイル
-//
 
 /////////////////////////////////////////////////////////////////////////////
 // CDPFDialog ダイアログ

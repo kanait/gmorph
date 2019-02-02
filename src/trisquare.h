@@ -1,4 +1,15 @@
-/* trisquare.c */
+//
+// trisquare.h
+//
+// Copyright (c) 1997-1998 Takashi Kanai
+//
+// This software is released under the MIT License.
+// http://opensource.org/licenses/mit-license.php
+//
+
+#ifndef _TRISQUARE_H
+#define _TRISQUARE_H
+
 extern int vertex_square(Vec2d *, QRange *);
 extern BOOL isLeftSide(Vec2d *, Vec2d *, Vec2d *);
 extern BOOL isLeftSidePivot(Vec2d *, Vec2d *, Vec2d *);
@@ -20,3 +31,5 @@ extern double point_line_distance(Vec2d *, Vec2d *, Vec2d *);
 extern int hg_triangle_square_intersection(HGsf *, QRange *);
 extern int line_square_intersection(QRange *, Vec2d *, Vec2d *);
 extern int vertex_line(Vec2d *, Vec2d *, Vec2d *);
+
+#endif // _TRISQUARE_H

@@ -1,5 +1,11 @@
-// Material.cpp 
-// created by T.Kanai 1998.08.02
+//
+// Material.cpp
+//
+// Copyright (c) 1998 Takashi Kanai
+//
+// This software is released under the MIT License.
+// http://opensource.org/licenses/mit-license.php
+//
 
 #include "stdafx.h"
 // #include "OpenGL.h"

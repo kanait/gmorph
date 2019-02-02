@@ -1,4 +1,10 @@
-// OpenGL.h : OPENGL アプリケーションのメイン ヘッダー ファイル
+//
+// OpenGL.h
+//
+// Copyright (c) 1998 Takashi Kanai
+//
+// This software is released under the MIT License.
+// http://opensource.org/licenses/mit-license.php
 //
 
 #if !defined(AFX_OPENGL_H__11D0ECD4_2844_11D2_AB51_00E029217E15__INCLUDED_)
