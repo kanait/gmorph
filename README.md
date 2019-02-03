@@ -10,14 +10,14 @@ This software was originally developed in 1997-1998 and was renovated in 2016 so
 
 ## Getting Started
 
-### Windows
+This software is provided only for Windows.
 
-Double-click src\OpenGL.sln (A solution file for VS2015) and then "build the solution", and if successfully finished, you can find an executable in src\Release\gmorph.exe .
+Double-click src\OpenGL.sln (A solution file for VS2015) or src\gmorph-vs2017.sln (for VS2017) and then "build the solution", and if successfully finished, you can find an executable in src\Release\gmorph.exe or src\Release\gmorph-vs2017.exe .
 
-In the data.v2.0 folder, all examples used in the paper are included. You can see 3D morphing animation as follows:
+In the data.v2.0 folder, all examples used in the paper are included. You can check 3D morphing animation as follows:
 
-1. Copy an execution file gmorph.exe to a folder including .gmh file.
-2. Execute gmorph.exe.
+1. Copy an execution file gmorph.exe (or gmorph-vs2017.exe) to a folder including .gmh file.
+2. Execute gmorph.exe (or gmorph-vs2017.exe).
 3. "File" -> "Open" -> "GMH file" to load a .gmh file.
 4. "Morph" -> "Create PPD" to create an interpolation mesh.
 5. "Display" -> "Interp. Mesh"
@@ -25,7 +25,7 @@ In the data.v2.0 folder, all examples used in the paper are included. You can se
 
 ## Prerequisites
 
-This software uses MFC (Microsoft Foundation Class). Then, to build this software, VS2015 Professional or upper versions are required for Windows application.
+This software uses MFC (Microsoft Foundation Class). Then, to build this software, VS2015/VS2017 Professional or upper versions are required for Windows application.
 
 This software also requires [Eigen](http://eigen.tuxfamily.org/) library. When you execute "git clone" with "--recursive" option, You will also get Eigen library as a submodule "external/eigen":
 
