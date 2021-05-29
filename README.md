@@ -12,12 +12,12 @@ This software was originally developed in 1997-1998 and was renovated in 2016 so
 
 This software is provided only for Windows.
 
-Double-click src\OpenGL.sln (A solution file for VS2015) or src\gmorph-vs2017.sln (for VS2017) and then "build the solution", and if successfully finished, you can find an executable in src\Release\gmorph.exe or src\Release\gmorph-vs2017.exe .
+Double-click src\OpenGL.sln (A solution file for VS2015) or src\gmorph-vs2019.sln (for VS2019) and then "build the solution", and if successfully finished, you can find an executable in src\Release\gmorph.exe or src\x64\Release\gmorph-vs2019.exe (64bit binary). 
 
 In the data.v2.0 folder, all examples used in the paper are included. You can check 3D morphing animation as follows:
 
-1. Copy an execution file gmorph.exe (or gmorph-vs2017.exe) to a folder including .gmh file.
-2. Execute gmorph.exe (or gmorph-vs2017.exe).
+1. Copy an execution file gmorph.exe (or gmorph-vs2019.exe) to a folder including .gmh file.
+2. Execute gmorph.exe (or gmorph-vs2019.exe).
 3. "File" -> "Open" -> "GMH file" to load a .gmh file.
 4. "Morph" -> "Create PPD" to create an interpolation mesh.
 5. "Display" -> "Interp. Mesh"
