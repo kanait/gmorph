@@ -29,6 +29,7 @@ This software also requires the Eigen library. When you execute `git clone` with
 
 ```bash
 git clone git@github.com:kanait/gmorph.git --recursive
+```
 
 ## Authors
 
@@ -37,3 +38,4 @@ git clone git@github.com:kanait/gmorph.git --recursive
 ## License
 
 This software except Eigen is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. You also have to follow Eigen's license.
+This software, excluding Eigen, is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. You also have to adhere to Eigen's license.
