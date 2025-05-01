@@ -28,7 +28,7 @@ This software uses MFC (Microsoft Foundation Class). To build this software, VS2
 This software also requires the Eigen library. When you execute `git clone` with the `--recursive` option, you will also get the Eigen library as a submodule in `external/eigen`:
 
 ```bash
-git clone git@github.com:kanait/gmorph.git --recursive
+git clone https://github.com/kanait/gmorph.git --recursive
 ```
 
 ## Authors
