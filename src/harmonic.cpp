@@ -1,4 +1,4 @@
-//
+﻿//
 // harmonic.cpp
 //
 // Copyright (c) 1996-1998 Takashi Kanai
@@ -7,7 +7,7 @@
 // http://opensource.org/licenses/mit-license.php
 //
 
-#include "StdAfx.h"
+#include "stdafx.h"
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
