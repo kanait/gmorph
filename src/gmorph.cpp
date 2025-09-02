@@ -438,11 +438,12 @@ HPpd *open_gmh_file( char *file )
 			
 			if (id == 0) {
 				
+				printf("ppd1 %s\n", val[0]);
 				ppd1 = open_ppd(val[0]);
 				hppd->ppd1 = ppd1;
 				
 			} else {
-				
+				printf("ppd2 %s\n", val[0]);
 				ppd2 = open_ppd(val[0]);
 				hppd->ppd2 = ppd2;
 				
